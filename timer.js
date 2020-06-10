@@ -12,7 +12,7 @@ var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
 var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 // Output the result in an element with id="demo"
-document.getElementById("demo").innerHTML = "Verbliebene Zeit bis zum 11. Juni um 12:00 Uhr: " + days + "d " + hours + "h "+ minutes + "m " + seconds + "s ";
+document.getElementById("demo").innerHTML = "Verbliebene Zeit bis zum 15. Juni um 17:00 Uhr: " + days + "d " + hours + "h "+ minutes + "m " + seconds + "s ";
 // If the count down is over, write some text 
 if (distance < 0) {
     clearInterval(x);
